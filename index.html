@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Slide Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-area">
+
+        <div class="panel">
+            <h2>Type Your Slides</h2>
+            <textarea id="input-area"></textarea>
+            <div class="btn-row">
+                <button id="store-btn">Store</button>
+                <button id="show-btn">Show</button>
+            </div>
+        </div>
+
+        <div class="panel">
+            <h2>Preview</h2>
+            <div id="preview-area"></div>
+            <div class="btn-row">
+                <button id="prev-btn">Previous</button>
+                <button id="next-btn">Next</button>
+                <button id="expand-btn">Expand</button>
+            </div>
+            <p id="page-count">1 / 1</p>
+        </div>
+
+    </div>
+
+    <div id="show-screen">
+        <div id="show-content"></div>
+        <div class="btn-row">
+            <button id="show-prev-btn">Previous</button>
+            <button id="show-next-btn">Next</button>
+            <button id="show-exit-btn">Exit</button>
+        </div>
+        <p id="show-count">1 / 1</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
